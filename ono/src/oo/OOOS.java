@@ -21,7 +21,8 @@ public class OOOS {
 //		stm.executeUpdate(sql);
 		ResultSet rs = stm.executeQuery("select * from employees");
 		while(rs.next()){
-		System.out.println("ok ..ol ok..ok ");
+			System.out.println("ok ..ol ok..ok ");
+			System.out.println();
 		}
 
 	}
